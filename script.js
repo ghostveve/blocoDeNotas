@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnLimparNotas = document.getElementById('btnLimparNotas');
     const toggleDark = document.getElementById('toggle-dark'); // Novo botão modo escuro
     const seletorCores = document.getElementById('seletor-cores'); // Seletor de cor de fundo
+    const btnSalvarNotas = document.getElementById('btnSalvarNotas'); // Botão salvar notas
 
     // add um evento de clique 
     btnLimparNotas.addEventListener('click', () => {
